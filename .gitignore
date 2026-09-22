@@ -1,0 +1,64 @@
+# =========================
+# STM32CubeIDE build output
+# =========================
+Debug/
+Release/
+build/
+Build/
+
+*.o
+*.obj
+*.d
+*.su
+*.cyclo
+*.map
+*.elf
+*.hex
+*.bin
+*.list
+*.lst
+*.srec
+
+# =========================
+# STM32CubeIDE / Eclipse
+# =========================
+.metadata/
+RemoteSystemsTempFiles/
+
+*.launch
+
+# Eclipse temporary files
+*.log
+*.tmp
+*.bak
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Editor files
+# =========================
+.vscode/
+.idea/
+
+*.swp
+*.swo
+*~
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# =========================
+# Misc
+# =========================
+*.orig
+*.rej
